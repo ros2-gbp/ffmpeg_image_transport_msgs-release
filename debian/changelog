@@ -1,0 +1,8 @@
+ros-iron-ffmpeg-image-transport-msgs (1.2.2-1bullseye) bullseye; urgency=high
+
+  * initial release
+  * Contributors: Bernd Pfrommer
+
+ -- Bernd Pfrommer <bernd.pfrommer@gmail.com>  Sun, 07 Jan 2024 05:00:00 -0000
+
+
