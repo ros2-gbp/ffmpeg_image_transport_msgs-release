@@ -1,0 +1,12 @@
+Source: ros-jazzy-ffmpeg-image-transport-msgs
+Section: misc
+Priority: optional
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-rosidl-default-generators, ros-jazzy-std-msgs, ros-jazzy-ros-workspace, ros-jazzy-rosidl-typesupport-fastrtps-c, ros-jazzy-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-ffmpeg-image-transport-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-rosidl-default-runtime, ros-jazzy-std-msgs, ros-jazzy-ros-workspace
+Description: messages for ffmpeg image transport plugin
