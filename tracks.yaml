@@ -124,7 +124,7 @@ tracks:
       :{release_inc} --os-name rhel
     - git-bloom-generate -y rosdynrpm --prefix release/:{ros_distro} :{ros_distro}
       -i :{release_inc} --require-os fedora rhel
-    devel_branch: master
+    devel_branch: release
     last_version: 1.0.2
     name: ffmpeg_image_transport_msgs
     patches: null
@@ -134,7 +134,7 @@ tracks:
     ros_distro: lyrical
     vcs_type: git
     vcs_uri: https://github.com/ros-misc-utilities/ffmpeg_image_transport_msgs.git
-    version: 1.0.2
+    version: :{auto}
   rolling:
     actions:
     - bloom-export-upstream :{vcs_local_uri} :{vcs_type} --tag :{release_tag} --display-uri
