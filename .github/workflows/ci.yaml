@@ -12,7 +12,7 @@ on:
       branches: [master]
 
 jobs:
-   build_ros2:
-      uses: ros-misc-utilities/ros_build_scripts/.github/workflows/ros2_ci.yml@master
-      with:
-         repo: ${{ github.event.repository.name }}
+  build_ros2:
+    uses: ros-misc-utilities/ros_build_scripts/.github/workflows/ci_humble_and_later.yml@master
+    with:
+      repo: ${{ github.event.repository.name }}
